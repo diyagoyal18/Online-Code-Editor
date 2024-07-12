@@ -5,8 +5,8 @@ import { executeCode } from "../api";
 const Output = ({ editorRef, language }) => {
   const toast = useToast();
   const [output, setOutput] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const runCode = async () => {
     const sourceCode = editorRef.current.getValue();

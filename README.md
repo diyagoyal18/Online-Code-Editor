@@ -1,11 +1,28 @@
 Demo https://online-code-editor-theta-five.vercel.app/
 
 
-# React + Vite
+# Online Code editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Weclome to an all-in-one Online Code Editor Website designed to streamline your coding experience. This allows you to run and execute code in your browser.
 
-Currently, two official plugins are available:
+## Technologies Used
+For this code editor I have used
+1. ReactJs + Vite Framework
+2. Piston API
+3. Chakra UI for UI design
+4. Monaco Editor in React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run Locally
+
+```bash
+# install dependencies
+
+npm install
+
+# start the dev server
+
+npm run dev
+```
+
+
